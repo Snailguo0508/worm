@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wc:Database xmlns:wc="wcc:Database">
+	<WebsitePath>F://radar</WebsitePath>
+	<IsPubNet>1</IsPubNet>
+	<DBConfig>
+		<PoolSize>3</PoolSize>
+		<DriverName><![CDATA[com.mysql.jdbc.Driver]]></DriverName>
+		<DBUrl><![CDATA[jdbc:mysql://127.0.0.1:3306/local]]></DBUrl>
+		<DBUserName>root</DBUserName>
+		<DBPassword>123</DBPassword>
+	</DBConfig>
+	<!--  双数据源 -->
+	<!-- <DBConfig1>
+		<PoolSize>3</PoolSize>
+		<DriverName><![CDATA[com.mysql.jdbc.Driver]]></DriverName>
+		<DBUrl><![CDATA[jdbc:mysql://192.168.1.200:3306/mia_shanghai??relaxAutoCommit=true&zeroDateTimeBehavior=convertToNull]]></DBUrl>
+		<DBUserName>QsNgL5utAroam8KKLBRSPs6sOYHG2AoZJPo8o7HBlxMTuoNLOZYGEWpfpqfNxsmYH/fEeU6hD7qv/DB9xh0nt7IPfXvkWBU9q8HS19oTToEdoNJf2pdSiD9LRaU+Lup2BwxxgH557Sh6/54VgYexUJS43fcc8UXJveBCNCe5mA0=</DBUserName>
+		<DBPassword>KT2MGUk3e5qZLMTopCHXFVyH3OxSj3YFSuqKB+IzoHabGmGo1C2X4ak2Me9Ep5Sym8xpEQ/uNUY4LbyJDR3H5ivVOpQLegWZPE8Qx71synNj6hvY66A3C8HSf29Ty5SjEwa5zZaT/pIJpHkuta2qxGxP4m67ytjaqlrFosEvz6k=</DBPassword>
+	</DBConfig1> -->
+	
+</wc:Database>

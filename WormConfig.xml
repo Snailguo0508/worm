@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wc:WornConfig xmlns:wc="urn:WornConfig">
+	<BaseConfig>
+		<TaskInterval>60</TaskInterval>
+		<RadarEncoding>UTF-8</RadarEncoding>
+		<TaskModel>1</TaskModel> <!-- 开发1, 正式环境2 -->
+		<UploadFilePath>E:\home\</UploadFilePath> <!-- 上载文件生成目录 -->
+	</BaseConfig>
+	<TaskConfig>
+		<Task>
+			<TaskId>1</TaskId>
+			<QuartzTime>10</QuartzTime>
+		</Task>
+	</TaskConfig>
+</wc:WornConfig>

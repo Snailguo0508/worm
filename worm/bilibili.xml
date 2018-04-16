@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rc:RadarConfig xmlns:rc="urn:RadarConfig">
+
+	<AppSite>
+		<WebsiteNewSiteId>1</WebsiteNewSiteId>
+		<SiteName>哔哩哔哩</SiteName>
+	</AppSite>
+	<AppChannels>
+		<AppChannel>
+			<newChannelId>1</newChannelId>
+			<mobileChannelName>日本</mobileChannelName>
+			<mobileChannelUrl><![CDATA[https://bangumi.bilibili.com/web_api/season/index_global?page=1&page_size=20&area=2]]></mobileChannelUrl>
+			<pageCount>152</pageCount>
+			<isHead>0</isHead>
+		</AppChannel>
+		<AppChannel>
+			<newChannelId>2</newChannelId>
+			<mobileChannelName>国产</mobileChannelName>
+			<mobileChannelUrl><![CDATA[https://bangumi.bilibili.com/web_api/season/index_cn?page=1&page_size=20]]></mobileChannelUrl>
+			<pageCount>20</pageCount>
+			<isHead>0</isHead>
+		</AppChannel>
+	</AppChannels>
+	<AppTemplate>
+		<templateId>1</templateId>
+		<templateName>哔哩哔哩</templateName>
+		<listHeadType></listHeadType>
+		<listType>1</listType>
+		<listFileds><![CDATA[{"jsons":[{"key":"null","type":"obj","child":{"key":"result","type":"obj","child":{"key":"list","type":"array"}}}]}]]></listFileds>
+		
+		<listhead><![CDATA[]]></listhead>
+		<listTitle><![CDATA[{"jsons":[{"key":"title","type":"string"}]}]]></listTitle>
+		<listDescription><![CDATA[]]></listDescription>
+		<listTime><![CDATA[{"jsons":[{"key":"pub_time","type":"string"}]}]]></listTime>
+		<listUrl><![CDATA[{"prefix":"http://bangumi.bilibili.com/jsonp/seasoninfo/replaceId.ver?callback=seasonListCallback","replacements":["replaceId:season_id"]}]]></listUrl>
+		
+		<listImgUrl><![CDATA[{"jsons":[{"cover":"title","type":"string"}]}]]></listImgUrl>
+		<listFavoriteCount><![CDATA[{"jsons":[{"cover":"favorites","type":"string"}]}]]></listFavoriteCount>
+		<listTag><![CDATA[]]></listTag>
+		<listNextPage><![CDATA[{"replacePage":"page=","startPageNum":"1","perPageNum":"1"}]]></listNextPage>
+		<mainType><![CDATA[1]]></mainType>
+		
+		<mainFileds><![CDATA[{"jsons":[{"key":"null","type":"obj","child":{"key":"result":"type":"obj"}}]}]]></mainFileds>
+		<mainTitle><![CDATA[{"jsons":[{"key":"title","type":"string"}]}]]></mainTitle>
+		<mainDescription><![CDATA[{"jsons":[{"key":"evaluate","type":"string"}]}]]></mainDescription>
+		<mainTag><![CDATA[{"jsons":[{"key":"tags","type":"array"}]}]]></mainTag>
+		<mainTime><![CDATA[{"jsons":[{"key":"pub_time","type":"string","format":"yyyy-MM-dd HH:mm:ss"}]}]]></mainTime>
+		<mainArea><![CDATA[{"jsons":[{"key":"area","type":"string"}]}]]></mainArea>
+		<mainAkira><![CDATA[{"jsons":[{"key":"actor","type":"array"}]}]]></mainAkira>
+		<mainFavoriteCount><![CDATA[{"jsons":[{"key":"favorites","type":"string"}]}]]></mainFavoriteCount>
+		<mainPlayCount><![CDATA[{"jsons":[{"key":"play_count","type":"string"}]}]]></mainPlayCount>
+		<mainDanmakuCount><![CDATA[{"jsons":[{"key":"danmaku_count","type":"string"}]}]]></mainDanmakuCount>
+		<mainImgUrl><![CDATA[{"jsons":[{"key":"cover","type":"string"}]}]]></mainImgUrl>
+	</AppTemplate>
+</rc:RadarConfig>
